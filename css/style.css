@@ -1,0 +1,92 @@
+body {
+	background-color: grey;
+	padding: 25px;
+}
+img {
+	border-radius:50%; 
+	background-color: grey;
+}
+button {
+	padding: 10px 20px 10px 20px;
+	margin-left: 20px;
+}
+#invoiceNumber {
+	color: #aaa;
+}
+#total {
+	color: blue;
+}
+#schoolName {
+	margin-left: 20px;
+}
+.card {
+	width: 80%;
+	margin: auto;
+	background-color: #fff;
+	padding: 25px;
+}
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.justify {
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+	list-style: none;
+	line-height: 1px;
+}
+.inner-card {
+	width: 90%
+	margin auto;
+	border: 1px solid #aaa;
+	border-radius: 15px;
+	padding-right: 25px;
+}
+.payment-breakdown {
+	display: flex; 
+	flex-direction: column; 
+	justify-content: 
+	space-between; 
+	list-style: none;
+}
+.cost {
+	float: right;
+	color: blue;
+}
+.spacer {
+	padding-bottom: 10px; 
+	padding-top: 10px;
+}
+.notes-total {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-top: 1px solid #aaa;
+	margin-top: 100px;
+}
+.footer div {
+	margin-top: 15px;
+}
+.notes {
+	width: 50%;
+}
+.right {
+	float: right;
+}
+.border {
+	border-bottom: 1px solid #aaa;
+}
+.grey {
+	color: #aaa;
+}
+.footer div {
+	color: blue;
+}
